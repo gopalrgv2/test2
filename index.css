@@ -1,0 +1,106 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 2px ; 
+    /* position: sticky; */
+    top: 0;
+}
+.body{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+}
+.cart{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100px;
+    justify-content: flex-end;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+}
+.leftPannel{
+    width: 15%;
+    height: 100%;
+    border-right: 1px solid #ddd;
+}
+.rightPannel{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 10px;
+}
+.bi-star-fill{
+ color: gold;
+ }
+ .fil{
+    text-align: center;
+    color: red;
+    font-size:x-large;
+    
+ }
+.uli,.bra ,.cat, .pri, .col, .dis{
+   padding: 10px;
+   margin: 5px;
+   background-color: lightgray;
+   /* text-align: center; */
+}
+.group1{
+    margin: 10px;
+    border: 1px solid;
+    padding: 10px;
+}
+.bi-bag-heart-fill{
+    position: absolute; bottom: 50px; right: 2px; 
+}
+.price{
+    position:relative ; bottom: 50px; left: 2px;
+    color: black;
+}
+.cart-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background:var(--text-color) ;
+    color: var(--bg-color);
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
